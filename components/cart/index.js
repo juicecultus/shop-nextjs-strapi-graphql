@@ -31,7 +31,7 @@ function Cart() {
                         key={item.id}
                       >
                         <div>
-                          <span id='item-price'>&nbsp; ${item.price}</span>
+                          <span id='item-price'>&nbsp; £ {item.price}</span>
                           <span id='item-name'>&nbsp; {item.name}</span>
                         </div>
                         <div>
